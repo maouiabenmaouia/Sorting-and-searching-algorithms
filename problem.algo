@@ -1,0 +1,15 @@
+procedure insertion_sort(var tab : array_of integer)
+var
+i,key,j : integer
+begin
+    for i from 1 to TAB.length -1 steb 1 do: 
+        key := tab[i];
+        j := i - 1;
+        while (j >= 0 && tab[j]>key) do
+        tab[j + 1] = tab[j];
+        j = j - 1;
+            
+        end while
+        tab[j + 1] = key
+    end for
+end
